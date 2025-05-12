@@ -27,7 +27,7 @@ public class DVDAnimator extends JWindow {
             if (imageFile.exists()) {
                 image = ImageIO.read(imageFile);
             } else {
-                image = ImageIO.read(new File("i-hate-you.png")); // Default image
+                image = ImageIO.read(new File("H:\\git\\DVD\\i-hate-you.png")); // Default image
             }
 
             image = resizeImage(image, imgW, imgH);
